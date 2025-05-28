@@ -60,6 +60,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-8271214290535679838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-8166722209685396430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,6 +911,26 @@ MonoBehaviour:
   priority: 0
   required: 0
   ignoreValidationErrors: 0
+--- !u!114 &4953916351528799966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &6458224253858806922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1094,6 +1134,46 @@ MonoBehaviour:
   priority: 0
   required: 0
   ignoreValidationErrors: 0
+--- !u!114 &8413872826735101464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
+--- !u!114 &8528809227373416022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &8770528944975652169
 MonoBehaviour:
   m_ObjectHideFlags: 0
